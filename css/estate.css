@@ -213,6 +213,27 @@ hr {
 .fellow {
   display: block;
 }
+@media only screen and (max-width: 100%) {
+  .col-1 {
+    width: 100%;
+  }
+  .col-2 {
+    width: 500%;
+  }
+  .col-3 {
+    width: 50%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .col-5 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+}
+
 .twitter {
   position: relative;
   left: 199px;
@@ -220,4 +241,22 @@ hr {
 .text-holder {
   position: relative;
   left: 432px;
+}
+
+.p-tag {
+  position: relative;
+  bottom: 68px;
+  left: 128px;
+}
+.type-m {
+  height: 40px;
+  width: 247px;
+  background-color: #9c98986b;
+  border: #9c98986b;
+}
+.mmm {
+  height: 60px;
+  width: 390px;
+  background-color: #9c98986b;
+  border: #9c98986b;
 }
