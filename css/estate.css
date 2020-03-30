@@ -144,10 +144,6 @@ h2 {
 }
 
 .dropdown {
-  position: relative;
-  position: relative;
-  bottom: 65px;
-  left: 473px;
   display: flex;
   flex-direction: column;
   width: fit-content;
@@ -178,6 +174,13 @@ h2 {
 
 .dropdown:hover .dropbtn {
   background-color: black;
+}
+.box {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border: 2px soild gold;
+  background-color: gold;
 }
 hr {
   width: 945px;
@@ -213,12 +216,15 @@ hr {
 .fellow {
   display: block;
 }
-@media only screen and (max-width: 100%) {
+@media only screen and (max-width: 800px) {
   .col-1 {
-    width: 100%;
+    width: 400px;
+  }
+  .box {
+    display: block;
   }
   .col-2 {
-    width: 500%;
+    width: 400px;
   }
   .col-3 {
     width: 50%;
