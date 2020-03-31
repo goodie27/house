@@ -6,6 +6,11 @@ ul {
 h1 {
   margin: 0px;
 }
+.nav-bar-drop {
+  border: 2px solid gold;
+  display: none;
+  background-color: gold;
+}
 
 .picture {
   width: 334px;
@@ -24,6 +29,7 @@ h1 {
   color: white;
   background: rgb(27, 27, 27);
   height: 135px;
+  width: 334px;
   line-height: 31px;
 }
 li {
@@ -221,9 +227,21 @@ h2 {
 .fellow {
   display: block;
 }
-@media (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .box {
     display: block;
+  }
+  .logo {
+    width: 600px;
+  }
+  .img-gallary {
+    width: 1118px;
+  }
+  .nav-bar-drop {
+    display: inline;
+  }
+  .nav-bar {
+    display: none;
   }
 }
 .quick {
