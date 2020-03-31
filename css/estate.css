@@ -8,7 +8,7 @@ h1 {
 }
 
 .picture {
-  width: 333px;
+  width: 334px;
   height: 336px;
 }
 .cont {
@@ -71,6 +71,7 @@ input {
   border: 2px solid rgb(224, 221, 215);
   background-color: rgb(224, 221, 215);
   height: 73px;
+  width: 100%;
 }
 h2 {
   float: right;
@@ -93,33 +94,34 @@ h2 {
   color: black;
   background-color: gold;
   width: 21%;
-  position: relative;
-  left: 806px;
+
   border-radius: 6px;
-  top: 22px;
+  position: relative;
+  bottom: 54px;
+  margin-right: 71px;
   height: 184px;
   line-height: 2;
 }
-.container {
+.wrap-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
+}
+.container {
   width: 100%;
-  height: 223px;
 }
 .header {
-  position: relative;
-  left: 40px;
-  top: 28px;
+  margin: 24px;
 }
 
 .hor {
-  width: 1132px;
+  width: 1134px;
+  float: left;
 }
 .para {
   margin: 0px;
   padding: 0px;
   position: absolute;
-  top: 842px;
+  top: 781px;
   left: 48px;
   width: 60%;
 }
@@ -182,9 +184,11 @@ h2 {
   border: 2px soild gold;
   background-color: gold;
 }
-hr {
+.line {
   width: 945px;
   float: left;
+  position: relative;
+  bottom: 68px;
 }
 .agent {
   width: 100%;
@@ -199,47 +203,38 @@ hr {
 }
 .content-agent {
   position: relative;
-  left: 59px;
+  left: 47px;
+  line-height: 35px;
 }
 .group {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   border: 2px solid black;
-  background-color: black;
-  color: white;
+  background-color: rgb(19, 18, 18);
+  color: rgba(219, 209, 209, 0.924);
 }
 
-.text {
+.test {
   position: relative;
 }
 .fellow {
   display: block;
 }
-@media only screen and (max-width: 800px) {
-  .col-1 {
-    width: 400px;
-  }
+@media (max-width: 800px) {
   .box {
     display: block;
   }
-  .col-2 {
-    width: 400px;
-  }
-  .col-3 {
-    width: 50%;
-  }
-  .col-4 {
-    width: 100%;
-  }
-  .col-5 {
-    width: 100%;
-  }
-  .col-6 {
-    width: 100%;
-  }
 }
-
+.quick {
+  margin: 3px;
+  height: 30px;
+  width: 138px;
+  position: relative;
+  left: 30px;
+  bottom: 5px;
+  border-radius: 14px;
+}
 .twitter {
   position: relative;
   left: 199px;
@@ -265,4 +260,10 @@ hr {
   width: 390px;
   background-color: #9c98986b;
   border: #9c98986b;
+}
+h1 {
+  font-family: serif;
+}
+.top {
+  margin-left: 50px;
 }
